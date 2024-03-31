@@ -1,0 +1,92 @@
+:root {
+  --on-primary-color: #f7b5cd;
+  --primary-color:#231f20;
+
+  --secondery-color:#9195F6;
+  --on-secondery-color:#252bc4;
+
+  --terity-color:#FFF3C7;
+  --on-terity-color:#dfb313;
+
+  --background-color:#edd8e5;
+  --section-color: #eff7fa;
+  
+  --white-color: #fff;
+  --black-color: black;
+  --grey-color: rgb(188, 185, 185);
+  --header-padding-top: 20px;
+  --header-padding-bottom: 20px;
+  --nav-item-margin: 20px;
+  --logo-height: 50px;
+  --table-padding: 10px;
+  --table-border: 1px;
+  --table-gap: 20px;
+  --border-radius: 8px;
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  --footer-padding: 10px;
+  --footer-container-max-width: 1200px;
+  --social-media-margin: 20px;
+  --social-media-icon-size: 20px;
+  --subscription-input-width: 300px;
+  --subscription-input-padding: 15px;
+  --subscription-button-padding: 15px 30px;
+}
+
+
+
+.divider{
+  margin: 5px;
+margin-top: 10;
+  background-color: var(--grey-color);
+  height: 2px;
+  width: 100%;
+  
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.primary-bg-color{
+  background-color: var(--primary-color);
+}
+
+.on-primary {
+  color: var(--on-primary-color);
+}
+.on-bg-primary {
+  background-color: var(--on-primary-color);
+}
+
+
+
+.on-secondery {
+  color: var(--on-secondery-color);
+}
+.secondery {
+  color: var(--secondery-color);
+}
+.secondery-bg-color {
+  background-color: var(--secondery-color);
+}
+
+
+.on-tertity {
+  color: var(--primary-color);
+}
+.tertity {
+  color: var(--on-primary-color);
+}
+.tertity-bg-color {
+  background-color: var(--on-primary-color);
+}
+
+.white {
+  color: var(--white-color);
+}
+.grey {
+  color: var(--grey-color);
+}
+
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/all.min.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/register.css">
+
+</head>
+
+<body style="background-color: var(--primary-color);">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <h2 class="on-primary">Tahaluf Al Emarat Task 3</h2>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="form-body ">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h5 class="on-primary">Fill in the data below.</h5>
+                        <form id="formId" class="requires-validation" novalidate>
+                            <!-- todo: start Name -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input id="FN" class="form-control" type="text" name="name" placeholder="First Name"
+                                        required>
+                                    <div class="valid-feedback">first name field is valid!</div>
+                                    <div class="invalid-feedback">first name field cannot be blank!</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <input id="LN" class="form-control" type="text" name="name" placeholder="Last Name"
+                                        required>
+                                    <div class="valid-feedback">last name field is valid!</div>
+                                    <div class="invalid-feedback">last name field cannot be blank!</div>
+                                </div>
+                            </div>
+                            <!-- todo: End Name -->
+                            <!-- todo: start Email -->
+                            <div class="col-md-12">
+                                <input id="Email" class="form-control" type="email" name="email"
+                                    placeholder="E-mail Address" required>
+                                <div class="valid-feedback">Email field is valid!</div>
+                                <div class="invalid-feedback">Email field cannot be blank!</div>
+                            </div>
+                            <!-- todo: End Email -->
+                            <!-- todo: start Phone Number -->
+                            <div class="col-md-12">
+                                <input id="MobileID" minlength="9" maxlength="12" class="form-control" type="tel" name="tel"
+                                    placeholder="mobile number" required>
+                                <div class="valid-feedback">Phone field is valid!</div>
+                                <div class="invalid-feedback">Phone field cannot be blank!</div>
+                            </div>
+                            <!-- todo: End Phone Number -->
+                            <!-- todo: start date of birth -->
+                            <div class="col-md-12">
+                                <input id="DateID" class="form-control" type="date" name="date" placeholder="mobile number"
+                                    required>
+                                <div class="valid-feedback">date field is valid!</div>
+                                <div class="invalid-feedback">date field cannot be blank!</div>
+                            </div>
+                            <!-- todo: End date of birth -->
+                            <!-- todo: start address -->
+                            <div class="col-md-12">
+                                <textarea id="MultilineID" placeholder="Address" class="form-control" id="multilineInput"
+                                    name="multilineInput" rows="1" cols="20" required></textarea>
+                                <div class="valid-feedback">Address field is valid!</div>
+                                <div class="invalid-feedback">Address field cannot be blank!</div>
+                            </div>
+                            <!-- todo: End address -->
+                            <div class="col-md-12 mt-3 ">
+                                <label class="mb-3 mr-1" for="gender">Gender: </label>
+                                <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+                                <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+                                <div class="valid-feedback mv-up">You selected a gender!</div>
+                                <div class="invalid-feedback mv-up">Please select a gender!</div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label">I confirm that all data are correct</label>
+                                <div class="invalid-feedback">Please confirm that the entered data are all
+                                    correct!
+                                </div>
+                            </div>
+                            <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="Cards"></div>
+            <br>
+            <br>
+    
+    
+        </div>
+    
+    </div>
+
+
+ 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
